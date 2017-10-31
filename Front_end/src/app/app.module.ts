@@ -19,8 +19,9 @@ import { DunkirkComponent } from './dunkirk/dunkirk.component';
 import { ThemartianComponent } from './themartian/themartian.component';
 import { HttpModule, JsonpModule } from '@angular/http';
 import { ServiceService } from './service';
-import { FacebookModule } from 'ngx-facebook';
 import { CartComponent } from './cart/cart.component';
+import { FacebookModule } from 'ng2-facebook-sdk';
+import { CustomerBillComponent } from './customer-bill/customer-bill.component';
 
 
 const routes: Routes = 
@@ -36,7 +37,7 @@ const routes: Routes =
   { path: 'SevenYearsInTibet', component: SevenYearsInTibetComponent},
   { path: 'Se7en', component: Se7enComponent},
   { path: 'Dunkirk', component: DunkirkComponent},
-  {  path: 'Themartian', component:  ThemartianComponent},
+  { path: 'Themartian', component:  ThemartianComponent},
   { path: '', component: HomeComponent},  
   { path: '**', component: HomeComponent }];
 
@@ -58,6 +59,7 @@ const routes: Routes =
     DunkirkComponent,
     ThemartianComponent,
     CartComponent,
+    CustomerBillComponent,
   ],
   imports: [
     BrowserModule,

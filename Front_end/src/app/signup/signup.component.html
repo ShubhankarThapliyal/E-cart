@@ -1,6 +1,6 @@
 <div class="container">
   <h2>Login Details Form</h2>
-  <form action="/action_page.php">
+  <form>
     <div class="form-group">
       <label for="text">First Name:</label>
       <input type="text" class="form-control" id="firstname" placeholder="Enter first name" name="firstname" #firstname>
@@ -34,6 +34,6 @@
       <input type="text" class="form-control" id="pin" placeholder="Enter pin code" name="pin" #pin>
     </div>
          
-    <button type="submit" class="btn btn-default" (click)="onSubmit(mail.value,pas.value)" routerLink='/Login'>Submit</button>
+    <button type="button" class="btn btn-default" (click)="postDetails(firstname.value,lastname.value,dob.value,phone.value,mail.value,pwd.value,address.value,pin.value)" routerLink='/Login'>Submit</button>
   </form>
 </div>

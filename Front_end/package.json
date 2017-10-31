@@ -23,7 +23,11 @@
     "@angular/router": "^4.2.4",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "fb": "^2.0.0",
+    "ng2-facebook-sdk": "^2.3.1",
     "ngx-facebook": "^2.4.0",
+    "node-gyp": "^3.6.2",
+    "rebuild": "^0.1.2",
     "rxjs": "^5.4.2",
     "selfbits-angular2-sdk": "^1.0.6",
     "zone.js": "^0.8.14"
